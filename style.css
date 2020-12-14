@@ -1,0 +1,45 @@
+                                    body{
+                                        margin: 0;
+                                        padding: 0;
+                                        height: 100vh;
+                                        transition-property: background-color;
+                                        transition-duration: 500ms; 
+                                    }
+                                    .button_container{
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                    }
+                                    .main-heading{
+                                        text-align: center;
+                                        font-family:  sans-serif ; 
+                                        text-transform: uppercase;
+                                        font-size: 4rem;
+                                    }
+                                    .button{
+                                        cursor: pointer;
+                                        padding: 20px 20px;
+                                        border-radius: 5px;
+                                        outline: none;
+                                        border: none;
+                                        font-size: 2rem;
+                                        font-weight: bolder;
+                                        text-transform: uppercase ;
+                                        background-color:  #333 ;
+                                        color: #fff; 
+                                        transition-property: background-color;
+                                        transition-duration: 1000ms;
+                                    }
+                                    .button:hover{
+                                        background-color: #000;
+                                    }
+                                    .bg-color{
+                                        margin-top: 3rem;
+                                        font-size: 4rem;
+                                        background-color: #000;
+                                        color: #fff;
+                                        padding: 30px;
+                                        border-radius: 5px;
+                                    }
